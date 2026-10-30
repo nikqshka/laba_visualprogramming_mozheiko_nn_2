@@ -329,34 +329,6 @@ flow.set("counter", counter);
 ![Flow Context]<img width="1420" height="802" alt="Снимок экрана 2026-10-31 005348" src="https://github.com/user-attachments/assets/5d1bbc32-8b92-47bd-8927-b58498dfe1e9" />
 
 
----
-
-### 3.13. SQLite
-
-В качестве ачивки была настроена работа Node-RED с SQLite.
-
-Были созданы две таблицы:
-
-```text
-students
-tasks
-```
-
-Таблица `students` содержит:
-
-```text
-id
-name
-group_name
-```
-
-Таблица `tasks` содержит:
-
-```text
-id
-title
-status
-```
 
 ## 4. Освоенные Node-RED nodes
 
