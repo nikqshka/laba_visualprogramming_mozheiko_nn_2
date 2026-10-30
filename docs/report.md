@@ -12,11 +12,9 @@
 
 * ОС: macOS
 * Docker Desktop
-* Node-RED: `v5.0.7`
-![V5.0.7](../screenshots/v5.07.png)
+* Node-RED: `v5.0.9`
+<img width="259" height="559" alt="Снимок экрана 2026-10-31 003257" src="https://github.com/user-attachments/assets/4e00487d-c1ac-4a6a-b3f3-ccc1ab75b2b0" />
 
-* Node.js: `v24.20.0`
-![version](../screenshots/docker-node-version.png)
 
 * Docker image: `nodered/node-red`
 * SQLite для дополнительного задания
@@ -45,7 +43,8 @@ Inject → Debug
 
 **Flow:** [flow-01-inject-debug.json](../flows/flow-01-inject-debug.json)
 
-![Inject и Debug](../screenshots/01-inject-debug.png)
+![Inject и Debug]<img width="1537" height="868" alt="Снимок экрана 2026-10-31 003522" src="https://github.com/user-attachments/assets/ad511e75-7408-4a19-af46-16138255b7c0" />
+
 
 ---
 
@@ -61,7 +60,8 @@ Inject → Function → Debug
 
 **Flow:** [flow-02-function.json](../flows/flow-02-function.json)
 
-![Function](../screenshots/02-function.png)
+![Function]<img width="1441" height="787" alt="Снимок экрана 2026-10-31 003607" src="https://github.com/user-attachments/assets/27e0b8ee-600e-4e53-a694-28c23043e832" />
+
 
 ---
 
@@ -84,7 +84,8 @@ Switch проверяет значение `msg.payload` и направляет
 
 **Flow:** [flow-03-switch.json](../flows/flow-03-switch.json)
 
-![Switch](../screenshots/03-switch.png)
+![Switch]<img width="1500" height="700" alt="Снимок экрана 2026-10-31 003747" src="https://github.com/user-attachments/assets/2529667e-0d8d-4750-b7fd-8f8c07a5a249" />
+
 
 ---
 
@@ -104,7 +105,8 @@ Inject → Change → Debug
 
 **Flow:** [flow-04-change.json](../flows/flow-04-change.json)
 
-![Change](../screenshots/04-change.png)
+![Change]<img width="1536" height="628" alt="Снимок экрана 2026-10-31 003809" src="https://github.com/user-attachments/assets/7b96dbc7-bcdf-48bc-bf62-adfa085e8ada" />
+
 
 ---
 
@@ -122,7 +124,7 @@ Template с использованием Mustache формировал новы�
 
 **Flow:** [flow-05-template.json](../flows/flow-05-template.json)
 
-![Template](../screenshots/05-template.png)
+![Template]<img width="1612" height="675" alt="Снимок экрана 2026-10-31 003844" src="https://github.com/user-attachments/assets/7a037062-18f9-4d7d-965a-a7c2f15c90aa" />
 
 ---
 
@@ -138,7 +140,8 @@ HTTP Request использовался для получения данных �
 
 **Flow:** [flow-06-http-request.json](../flows/flow-06-http-request.json)
 
-![HTTP Request](../screenshots/06-http-request.png)
+![HTTP Request]<img width="1495" height="634" alt="Снимок экрана 2026-10-31 003915" src="https://github.com/user-attachments/assets/2d33e367-b1c6-4ca6-8208-2d1adfd433ef" />
+
 
 ---
 
@@ -166,7 +169,9 @@ MQTT In подписывался на тот же topic и получал опу
 
 **Flow:** [flow-07-mqtt.json](../flows/flow-07-mqtt.json)
 
-![MQTT](../screenshots/07-mqtt.png)
+![MQTT]<img width="1643" height="625" alt="Снимок экрана 2026-10-31 010028" src="https://github.com/user-attachments/assets/aa5b11e0-179d-4fa4-96ec-1ed1662ac152" />
+
+
 
 ---
 
@@ -194,19 +199,22 @@ GET /api/items?id=...
 
 #### GET /api/text
 
-![GET text](../screenshots/08-api-text.png)
+![GET text]<img width="564" height="312" alt="Снимок экрана 2026-10-31 004119" src="https://github.com/user-attachments/assets/b5370d0c-6abb-4276-b5b3-3334010e8259" />
 
 #### GET /api/info
 
-![GET info](../screenshots/08-api-info.png)
+![GET info]<img width="518" height="303" alt="Снимок экрана 2026-10-31 004258" src="https://github.com/user-attachments/assets/04e57b17-18be-4a1d-82f7-59596e34d527" />
+
 
 #### GET /api/items — успешный запрос
 
-![GET items success](../screenshots/08-api-items-success.png)
+![GET items success]<img width="588" height="261" alt="Снимок экрана 2026-10-31 004334" src="https://github.com/user-attachments/assets/a010630a-ebbd-4507-8437-5e1cd5b5bf2f" />
+
 
 #### GET /api/items — ошибка
 
-![GET items error](../screenshots/08-api-items-error.png)
+![GET items error]<img width="594" height="340" alt="Снимок экрана 2026-10-31 004348" src="https://github.com/user-attachments/assets/35a405ed-43da-4ce1-a1b1-48d79e2fd581" />
+
 
 ---
 
@@ -231,11 +239,13 @@ Gauge показывает текущее значение, а Chart отобр�
 
 #### Dashboard
 
-![Dashboard](../screenshots/09-dashboard.png)
+![Dashboard]<img width="1903" height="692" alt="Снимок экрана 2026-10-31 004751" src="https://github.com/user-attachments/assets/2e22e40d-e7fe-4cfa-9ca1-1190e8bd6d64" />
+
 
 #### Flow Dashboard
 
-![Dashboard flow](../screenshots/09-dashboard-flow.png)
+![Dashboard flow]<img width="1255" height="479" alt="Снимок экрана 2026-10-31 004757" src="https://github.com/user-attachments/assets/22518c5d-4d4c-42d3-a274-a500749a05bf" />
+
 
 ---
 
@@ -257,7 +267,9 @@ Telegram Sender
 
 **Flow:** [flow-10-telegram.json](../flows/flow-10-telegram.json)
 
-![Telegram](../screenshots/10-telegram.png)
+![Telegram]<img width="1431" height="583" alt="Снимок экрана 2026-10-31 005241" src="https://github.com/user-attachments/assets/d1c1b670-1548-43c7-9c2d-a4f0a7aacd75" />
+<img width="732" height="918" alt="Снимок экрана 2026-10-31 005122" src="https://github.com/user-attachments/assets/5a21177c-3aec-463f-b0e2-94fd07040c01" />
+
 
 ---
 
@@ -283,7 +295,8 @@ Inject → File Read → Debug
 
 **Flow:** [flow-11-files.json](../flows/flow-11-files.json)
 
-![Работа с файлами](../screenshots/11-files.png)
+![Работа с файлами]<img width="1431" height="583" alt="Снимок экрана 2026-10-31 005241" src="https://github.com/user-attachments/assets/b1b4b67d-c60f-4235-afaa-5085e5920cec" />
+
 
 ---
 
@@ -313,7 +326,8 @@ flow.set("counter", counter);
 
 **Flow:** [flow-12-context.json](../flows/flow-12-context.json)
 
-![Flow Context](../screenshots/12-context.png)
+![Flow Context]<img width="1420" height="802" alt="Снимок экрана 2026-10-31 005348" src="https://github.com/user-attachments/assets/5d1bbc32-8b92-47bd-8927-b58498dfe1e9" />
+
 
 ---
 
@@ -344,35 +358,6 @@ title
 status
 ```
 
-Для работы с базой были созданы отдельные потоки:
-
-```text
-Create students → SQLite
-Create tasks → SQLite
-Insert students → SQLite
-Select students → SQLite
-Insert tasks → SQLite
-Select tasks → SQLite
-```
-
-В таблицу `students` были добавлены три записи:
-
-```text
-Mozheiko
-Ivanov
-Petrov
-```
-
-В таблицу `tasks` были добавлены записи с заданиями лабораторной работы.
-
-Для проверки сохранения данных был выполнен перезапуск Node-RED. После перезапуска данные снова были получены через `SELECT`, что подтвердило сохранение базы данных.
-
-**Flow:** [flow-13-sqlite.json](../flows/flow-13-sqlite.json)
-
-![SQLite](../screenshots/13-sqlite.png)
-
----
-
 ## 4. Освоенные Node-RED nodes
 
 В ходе работы были изучены следующие основные nodes:
@@ -391,7 +376,6 @@ Petrov
 * Dashboard nodes — отображение данных;
 * Telegram nodes — получение и отправка сообщений Telegram;
 * File nodes — чтение и запись файлов;
-* SQLite — работа с локальной базой данных;
 * Context — хранение состояния между сообщениями.
 
 ---
