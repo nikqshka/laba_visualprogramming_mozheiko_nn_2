@@ -10,7 +10,7 @@
 
 ## 2. Используемое окружение
 
-* ОС: macOS
+* ОС: win
 * Docker Desktop
 * Node-RED: `v5.0.9`
 <img width="259" height="559" alt="Снимок экрана 2026-10-31 003257" src="https://github.com/user-attachments/assets/4e00487d-c1ac-4a6a-b3f3-ccc1ab75b2b0" />
